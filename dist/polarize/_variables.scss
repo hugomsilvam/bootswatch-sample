@@ -1,0 +1,93 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from /sass/bootstrap/_variables.scss, paste it here and edit the value.
+
+//
+// Colors
+//
+$black: #0f1014;
+$white: #ffffff;
+$yellow: #ffc900;
+$green: #4bbf73;
+$orange: #f0ad4e;
+$red: #d9534f;
+
+//
+// Gray Colors (I'm not using this variables for now)
+//
+$gray-15: #f4f4f4;
+$gray-30: #e8e8e8;
+$gray-45: #cacbcb;
+$gray-60: #a0a4a8;
+$gray-75: #2c2c2d;
+$gray-90: #111214;
+
+//
+// Override bootstrap classes
+//
+
+$gray-100: #f4f4f4;
+$gray-300: #e8e8e8;
+$gray-400: #cacbcb;
+$gray-600: #a0a4a8;
+$gray-700: #2c2c2d;
+$gray-900: #111214;
+
+$primary: $yellow;
+$secondary: $gray-900;
+
+$success: $green;
+$warning: $orange;
+$danger: $red;
+
+//
+//Fonts
+//
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+$font-family-base: "Open sans", sans-serif, $font-family-sans-serif;
+
+//Scale
+$display1-size: 5rem;
+$display2-size: 4rem;
+$display3-size: 3rem;
+$display4-size: 2rem;
+
+//Weight
+$font-weight-bold: 700;
+
+$display1-weight: $font-weight-bold;
+$display2-weight: $font-weight-bold;
+$display3-weight: $font-weight-bold;
+$display4-weight: $font-weight-bold;
+
+$headings-font-weight: $font-weight-bold;
+
+$font-size-base: 1rem !default;
+$h1-font-size: $font-size-base * 1.5;
+$h2-font-size: $font-size-base * 1.3;
+$h3-font-size: $font-size-base;
+$h4-font-size: $font-size-base * 0.9;
+$h5-font-size: $font-size-base * 0.8;
+$h6-font-size: $font-size-base * 0.65;
+
+//
+// Components (paddings, botders, sizes, ...)
+//
+$body-color: $gray-700;
+
+$border-color: $gray-400;
+$border-width: 2px;
+
+$table-head-bg: $gray-400;
+$table-head-color: $gray-600;
+
+// inactive states
+$text-muted: $gray-600;
+
+// input field texts
+$input-color: $gray-400;
+
+// disabled states
+$input-disabled-bg: $gray-100;
