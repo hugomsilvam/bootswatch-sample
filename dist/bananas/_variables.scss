@@ -26,12 +26,12 @@ $gray-90: #111214;
 // Override bootstrap classes
 //
 
-$gray-100: #f4f4f4;
-$gray-300: #e8e8e8;
-$gray-400: #cacbcb;
-$gray-600: #a0a4a8;
-$gray-700: #2c2c2d;
-$gray-900: #111214;
+$gray-100: $gray-15;
+$gray-300: $gray-30;
+$gray-400: $gray-45;
+$gray-600: $gray-60;
+$gray-700: $gray-75;
+$gray-900: $gray-90;
 
 $primary: $yellow;
 $secondary: $gray-900;
@@ -104,9 +104,15 @@ body {
     letter-spacing: 0.2px;
 }
 
+$body-color: $gray-700;
+
 .btn {
     letter-spacing: 0.2px;
 }
+
+$btn-border-radius: 25rem;
+$btn-border-radius-lg: 30rem;
+$btn-border-radius-sm: 20rem;
 
 //
 // Figures captions
@@ -117,8 +123,6 @@ $figure-caption-color: $gray-900;
 //
 // Components (paddings, borders, sizes, ...)
 //
-$body-color: $gray-700;
-
 $border-color: $gray-400;
 $border-width: 2px;
 
